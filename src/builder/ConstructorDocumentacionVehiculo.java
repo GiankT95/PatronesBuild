@@ -10,7 +10,10 @@ package builder;
  * @author Fuller 101
  */
 public abstract class ConstructorDocumentacionVehiculo {
-public abstract void construyesolicitudpedido(); 
-public abstract void solicitudmatriculacion();
-public abstract void resultado();
+Documentacion doc;    
+public abstract void construyesolicitudpedido(String cliente); 
+public abstract void solicitudmatriculacion(String solicita);
+public Documentacion  resultado(){
+return doc;    
+}
 }

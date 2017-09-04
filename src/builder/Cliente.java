@@ -5,17 +5,26 @@
  */
 package builder;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Fuller 101
  */
-public class JavaApplication5 {
+public class Cliente {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+    ConstructorDocumentacionVehiculo constructor;
+        Scanner sc=new Scanner(System.in);
+        String x= sc.next();
+    if(x.equals("htlm")){
+    constructor=new ConstructorDocumentacionVehiculoHtml();
     }
+    Vendedor vend =new Vendedor (constructor);
+        }
     
 }

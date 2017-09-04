@@ -12,9 +12,8 @@ package builder;
 public class Vendedor {
     
     public void construye(ConstructorDocumentacionVehiculo construir){
-    construir.construyesolicitudpedido();
-    construir.solicitudmatriculacion();
-    }
+   
 
+}
 }
  

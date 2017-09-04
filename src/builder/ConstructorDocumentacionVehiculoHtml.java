@@ -11,13 +11,18 @@ package builder;
  */
 public class  ConstructorDocumentacionVehiculoHtml extends ConstructorDocumentacionVehiculo{
 
+    public ConstructorDocumentacionVehiculoHtml() {
+    Documentacion = new Documentacionhtlm();
+    }
+
+    
     @Override
-    public void construyesolicitudpedido() {
+    public void construyesolicitudpedido(String cliente) {
         
     }
 
     @Override
-    public void solicitudmatriculacion() {
+    public void solicitudmatriculacion(String as) {
         
     }
 
@@ -25,5 +30,7 @@ public class  ConstructorDocumentacionVehiculoHtml extends ConstructorDocumentac
     public void resultado() {
 
     }
+
+  
     
 }

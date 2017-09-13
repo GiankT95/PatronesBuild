@@ -15,7 +15,7 @@ public class Cliente_credito extends Cliente {
         super(nombre, dinero);
     }
  @Override
-    protected Pedido creaPedido(double monto) {
-        
+    protected Pedido creaPedido(double cantidad) {
+    return new Pedido_credito(cantidad);    
     }    
 }

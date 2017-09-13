@@ -14,7 +14,8 @@ public class Main {
         
         Cliente cliente1 = new Cliente_contado("Juan", 500000);
         Cliente cliente2 = new Cliente_credito("Mario", 200000);
-        
+        cliente1.creaPedido(1232);
+        cliente2.creaPedido(4567);
  
         
     }    

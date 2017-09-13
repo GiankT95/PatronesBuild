@@ -16,9 +16,9 @@ public class Cliente_contado extends Cliente {
     }
 
     @Override
-    protected Pedido creaPedido(double monto) {
-    Pedido Pedidocontado =new Pedidocontado(monto);
-    return Pedidocontado;
+    protected Pedido creaPedido(double cantidad) {
+      return new Pedido_contado(cantidad);
+  
     
     }
     

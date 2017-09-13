@@ -10,6 +10,19 @@ package Factory_Method;
  * @author Fuller 101
  */
 public abstract class Pedido {
-protected abstract int paga();
-protected abstract boolean valida();   
+protected double cantidad;
+
+    public Pedido(double cantidad) {
+        this.cantidad = cantidad;
+    }
+    public double getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(double cantidad) {
+        this.cantidad = cantidad;
+    }
+    protected abstract void paga();
+protected abstract boolean valida(); 
+
 }

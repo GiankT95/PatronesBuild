@@ -17,23 +17,6 @@ public abstract  class Cliente {
         this.nombre = nombre;
         this.dinero = dinero;
     }
-    
-public void nuevoPedido(double montoPedido){
-        
-        System.out.println("Cliente: "+nombre+"     Saldo: $"+dinero);
-        
-        Pedido pedido = creaPedido(montoPedido);
-        
-        if(pedido.valida()){
-            pedido.paga();
-        }
-        
-        System.out.println("");
-        
-    }
-    
-    protected abstract Pedido creaPedido(double monto);
-
     public String getNombre() {
         return nombre;
     }
@@ -49,5 +32,18 @@ public void nuevoPedido(double montoPedido){
     public void setSaldo(double saldo) {
         this.dinero = saldo;
     }
+    
+public void nuevoPedido(double cantidad_pedido){
         
+        System.out.println("Cliente:"+nombre+"Dinero:"+dinero);
+        
+        Pedido pedido = creaPedido(cantidad_pedido);
+        
+        if(pedido.valida()){
+            pedido.paga();
+        }        
+    }   
+    
+    protected abstract Pedido creaPedido(double cantidad_pedido);      
+    
 }

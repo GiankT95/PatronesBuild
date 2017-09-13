@@ -9,6 +9,18 @@ package Factory_Method;
  *
  * @author Fuller 101
  */
-public class Pedido_credito {
-    
+public class Pedido_credito extends Pedido{
+  public Pedido_credito(double cantidad) {
+        super(cantidad);
+    }
+
+    @Override
+    protected void paga() {
+        
+    }
+
+    @Override
+    protected boolean valida() {
+       return true;
+    }    
 }

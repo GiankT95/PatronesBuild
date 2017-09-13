@@ -9,10 +9,22 @@ package Factory_Method;
  *
  * @author Fuller 101
  */
-public class Pedido_contado {
+public class Pedido_contado extends Pedido {
 
-    Pedido_contado(double monto) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Pedido_contado(double cantidad) {
+        super(cantidad);
     }
+
+    @Override
+    protected void paga() {
+     
+    }
+
+    @Override
+    protected boolean valida() {
+       return true;
+    }
+
+   
     
 }

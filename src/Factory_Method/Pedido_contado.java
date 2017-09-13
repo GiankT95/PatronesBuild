@@ -24,6 +24,7 @@ public class Pedido_contado extends Pedido {
     protected boolean valida() {
        return true;
     }
+    
 
    
     

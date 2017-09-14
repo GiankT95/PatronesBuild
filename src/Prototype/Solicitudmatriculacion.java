@@ -9,6 +9,11 @@ package Prototype;
  *
  * @author Fuller 101
  */
-public class Solicitudmatriculacion {
+public class Solicitudmatriculacion extends Documento {
+
+    @Override
+    public void imprime() {
+
+    }
     
 }

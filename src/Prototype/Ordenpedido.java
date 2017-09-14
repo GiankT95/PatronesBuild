@@ -9,6 +9,11 @@ package Prototype;
  *
  * @author Fuller 101
  */
-public class Ordenpedido {
+public class Ordenpedido extends Documento  {
+
+    @Override
+    public void imprime() {
+ 
+    }
     
 }

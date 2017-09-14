@@ -5,13 +5,17 @@
  */
 package Prototype;
 
+import java.util.ArrayList;
+
 
 
 /**
  *
  * @author Fuller 101
  */
-public class Documentacion_cliente {
- public   
-  
+public class Documentacion_cliente extends Documentacion{
+
+    public Documentacion_cliente() {
+     this.listaDocumentos= new ArrayList();
+    }
 }

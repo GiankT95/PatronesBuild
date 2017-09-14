@@ -9,7 +9,7 @@ package Prototype;
  *
  * @author Fuller 101
  */
-public class Documento implements Cloneable{
+public abstract class Documento implements Cloneable{
    
     
     public Object clone(){
@@ -17,4 +17,6 @@ public class Documento implements Cloneable{
    catch(CloneNotSupportedException e)
    {return null;}
    }    
+    
+    public abstract void imprime();
 }

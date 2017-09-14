@@ -15,5 +15,10 @@ public class Ordenpedido extends Documento  {
     public void imprime() {
  
     }
+
+    @Override
+    public void rellena(String informacion) {
+        
+    }
     
 }

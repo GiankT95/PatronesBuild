@@ -19,5 +19,8 @@ public abstract class Documento implements Cloneable{
    }    
     
     public abstract void imprime();
-    public abstract void rellena(String informacion);
+    public abstract void visualiza();   
+    public  void rellena(String informacion){
+    
+    }
 }

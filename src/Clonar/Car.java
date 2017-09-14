@@ -24,9 +24,7 @@ public class Car implements Cloneable{
         this.marca = marca;
     }
  
-    public interface Clonable{
-    
-}
+   
    public Object clone(){
    try{return super.clone();}
    catch(CloneNotSupportedException e)

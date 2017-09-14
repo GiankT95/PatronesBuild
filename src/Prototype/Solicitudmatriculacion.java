@@ -15,9 +15,10 @@ public class Solicitudmatriculacion extends Documento {
     public void imprime() {
 
     }
-     @Override
-    public void rellena(String informacion) {
-        
+    @Override
+    public void visualiza() {
+    System.out.println("Solicitud matriculacion");
     }
+    
     
 }

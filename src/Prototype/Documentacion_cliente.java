@@ -18,4 +18,17 @@ public class Documentacion_cliente extends Documentacion{
     public Documentacion_cliente() {
      this.listaDocumentos= new ArrayList();
     }
+    
+    public void crea(String informacion){
+        
+    }
+    public void imprime() {
+ 
+    }
+
+    public void visualiza() {
+   
+    }
+    
+    
 }

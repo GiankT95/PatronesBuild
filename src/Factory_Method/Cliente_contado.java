@@ -10,9 +10,10 @@ package Factory_Method;
  * @author Fuller 101
  */
 public class Cliente_contado extends Cliente {
-
+String cc;
     public Cliente_contado(String nombre, double dinero) {
         super(nombre, dinero);
+        
     }
 
     @Override

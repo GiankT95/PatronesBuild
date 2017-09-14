@@ -15,10 +15,9 @@ public class Ordenpedido extends Documento  {
     public void imprime() {
  
     }
-
     @Override
-    public void rellena(String informacion) {
-        
+    public void visualiza() {
+      System.out.println("Orden pedido"); 
     }
     
 }

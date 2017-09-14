@@ -16,9 +16,10 @@ public class CertificadoCesion extends Documento{
         
     }
      @Override
-    public void rellena(String informacion) {
-        
+    public void visualiza() {
+     System.out.println("Certifica doCesion"); 
     }
+    
     
     
 }

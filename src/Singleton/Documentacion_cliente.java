@@ -20,7 +20,7 @@ public class Documentacion_cliente extends Documentacion{
      this.listaDocumentos= new ArrayList();
     }
     
-    public void crea(String informacion){
+    public void crea(String informacion,Documentacion_enblanco doc){
         
     }
     public void imprime() {

@@ -9,6 +9,14 @@ package Singleton;
  *
  * @author Fuller 101
  */
-public class Solicitud_garantia {
-    
+public class Solicitud_garantia extends Documento{
+ @Override
+    public void imprime() {
+ 
+    }
+    @Override
+    public void visualiza() {
+      System.out.println("solicitud garantia"); 
+    }
+        
 }

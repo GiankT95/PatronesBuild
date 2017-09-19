@@ -13,12 +13,12 @@ package bridge;
 
     @Override
     public void dibujatecto() {
-     
+     System.out.println("dibuja htlm");   
     }
 
     @Override
     public void administrazonaindicada() {
-      
+       System.out.println("administra htlm");          
     }
     
 }

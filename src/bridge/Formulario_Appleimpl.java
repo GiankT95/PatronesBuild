@@ -13,12 +13,12 @@ public class Formulario_Appleimpl implements Formulario_Impl{
 
     @Override
     public void dibujatecto() {
-       
+    System.out.println("dibuja apple");     
     }
 
     @Override
     public void administrazonaindicada() {
-      
+      System.out.println("administra apple");  
     }
     
 }

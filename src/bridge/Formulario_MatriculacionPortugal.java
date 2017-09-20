@@ -27,7 +27,8 @@ public class Formulario_MatriculacionPortugal extends Formulario_Matriculacion {
 
     @Override
     protected void administrazona() {
-    System.out.println("administra portugal");   
+    System.out.println("administra portugal");
+     imp.dibujatecto();
     }
     
 }

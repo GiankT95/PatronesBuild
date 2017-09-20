@@ -28,7 +28,8 @@ public class Formulario_MatriculacionEspaña extends Formulario_Matriculacion {
 
     @Override
     protected void administrazona() {
-     System.out.println("administra españa"); 
+     System.out.println("administra españa");
+     imp.dibujatecto();
     }
     
 }

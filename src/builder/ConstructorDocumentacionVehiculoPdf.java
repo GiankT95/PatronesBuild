@@ -10,19 +10,15 @@ package builder;
  * @author Fuller 101
  */
 public class ConstructorDocumentacionVehiculoPdf extends ConstructorDocumentacionVehiculo{
-  @Override
-    public void construyesolicitudpedido() {
-        
+
+    @Override
+    public void construyesolicitudpedido(String cliente) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void solicitudmatriculacion() {
-        
+    public void solicitudmatriculacion(String solicita) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
-    @Override
-    public void resultado() {
-       
-    }
-        
+ 
 }

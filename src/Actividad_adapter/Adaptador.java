@@ -12,7 +12,7 @@ package Actividad_adapter;
 public class Adaptador implements DDservicios{
 DDservicios inDDservicios;
 
-    public Adaptador(DDservicios inDDservicios) {
+    public Adaptador(DDservicios implDDservicios) {
         this.inDDservicios = inDDservicios;
     }
 
@@ -20,5 +20,28 @@ DDservicios inDDservicios;
     public String getserial() {
      return inDDservicios.getserial();
     }
+
+    @Override
+    public String encriptar(String me) {
+     return inDDservicios.encriptar(me);
+    }
+
+    @Override
+    public String Serialencriptado() {
+    return inDDservicios.Serialencriptado();
+    }
+
+    @Override
+    public String desencriptar(String me) {
+    return inDDservicios.desencriptar(me);
+    }
+
+    @Override
+    public String Serialdesencriptado() {
+       return inDDservicios.Serialdesencriptado();
+}
+
+    
+   
 
 }

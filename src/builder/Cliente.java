@@ -24,7 +24,7 @@ public class Cliente {
     if(x.equals("htlm")){
     constructor=new ConstructorDocumentacionVehiculoHtml();
     }
-    Vendedor vend =new Vendedor (constructor);
+//    Vendedor vend =new Vendedor (constructor);
         }
     
 }

@@ -10,12 +10,7 @@ import static Actividad_adapter.Manejadorconstantes.comando;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.security.MessageDigest;
-import java.util.ArrayList;
-import java.util.Arrays;
-import javax.crypto.Cipher;
-import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
+
 
 /**
  *
@@ -56,11 +51,31 @@ public class ImplDDservicios implements DDservicios{
         }
     return Serial;
     }
+    @Override
     public String Serialencriptado(){
     String codigo=null;
     codigo=getserial();
     return encriptar(codigo);
+    //return "hola";
     }
+    
+    public String Serialdesencriptado(){
+    String codigo=null;
+    codigo=getserial();
+    return desencriptar(codigo);
+    //return "hola";
+    }
+    @Override
+    public String desencriptar(String encriptado){
+    char arrayD[]=encriptado.toCharArray(); 
+        for(int i=0;i<arrayD.length;i++){ 
+            arrayD[i]=(char)(arrayD[i]-(char)5); 
+        } 
+      String desencriptado =String.valueOf(arrayD); 
+        return desencriptado;       
+    }
+    
+    @Override
    public String encriptar(String mensaje){ 
   char array[]=mensaje.toCharArray(); 
          
@@ -71,4 +86,5 @@ public class ImplDDservicios implements DDservicios{
         return encriptado;
    }
 
+   
 }

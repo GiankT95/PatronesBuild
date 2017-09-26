@@ -10,5 +10,9 @@ package Actividad_adapter;
  * @author Ts
  */
 public interface DDservicios {
-public abstract String getserial();    
+public abstract String getserial();  
+public abstract String encriptar(String me);
+public abstract String desencriptar(String me);
+public abstract String Serialencriptado();
+public abstract String Serialdesencriptado();
 }

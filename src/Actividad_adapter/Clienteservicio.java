@@ -10,5 +10,5 @@ package Actividad_adapter;
  * @author Ts
  */
 public interface Clienteservicio {
-public abstract String consultarserie();    
+public abstract boolean validar();    
 }

@@ -10,6 +10,10 @@ package builder;
  * @author Fuller 101
  */
 public class Vendedor {
+
+    Vendedor(ConstructorDocumentacionVehiculo constructor) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public void construye(ConstructorDocumentacionVehiculo construir){
    

@@ -12,7 +12,7 @@ package builder;
 public class  ConstructorDocumentacionVehiculoHtml extends ConstructorDocumentacionVehiculo{
 
     public ConstructorDocumentacionVehiculoHtml() {
-    Documentacion = new Documentacionhtlm();
+        Documentacionhtlm Documentacion = new Documentacionhtlm();
     }
 
     
@@ -26,10 +26,7 @@ public class  ConstructorDocumentacionVehiculoHtml extends ConstructorDocumentac
         
     }
 
-    @Override
-    public void resultado() {
-
-    }
+    
 
   
     
